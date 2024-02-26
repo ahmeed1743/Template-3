@@ -404,6 +404,7 @@ header .logo{
     padding: var(--container-padding);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    place-items:center;
     gap: 40px;
 }
 
@@ -482,6 +483,7 @@ Articles
     padding: var(--container-padding);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items:center;
     gap: 40px;
 }
 
@@ -548,6 +550,7 @@ Articles
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items:center;
 }
 .features .box {
     text-align: center;
@@ -681,6 +684,7 @@ Articles
     padding: var(--container-padding);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    place-items:center;
     gap: 40px;
 }
 
@@ -747,6 +751,7 @@ Articles
     padding: var(--container-padding);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    place-items:center;
     gap: 40px;
 }
 
@@ -839,6 +844,7 @@ Articles
     padding: var(--container-padding);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    place-items:center;
     gap: 40px;
 }
 
@@ -1228,6 +1234,7 @@ Articles
 .pricing .container{
     padding: var(--container-padding);
     display: grid;
+    place-items:center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
 }
