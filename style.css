@@ -210,14 +210,6 @@ header .logo{
 
 
 
-.other-links:hover .mega-menu{
-    opacity: 1;
-    top: 100%;
-}
-
-
-
-
 .other-links .mega-menu ul li a{
     font-weight: bold;
     color: var(--main-color);
