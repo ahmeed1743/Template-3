@@ -1247,8 +1247,8 @@ Articles
     cursor: pointer;
     position: relative;
     border-radius: 16px;
-    width: 100%;
-    overflow: hidden;
+    width:100% ; 
+    overflow:hidden;
 }
 
 .pricing .container .box::before,
