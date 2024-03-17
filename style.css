@@ -323,7 +323,7 @@ header .logo{
 .arrow-up{
     position: fixed;
     right: 20px;
-    top: 580px;
+    top: 558px;
     font-size: 32px;
     border-radius: 50%;
     color: var(--main-color);
@@ -855,6 +855,7 @@ Articles
     transition: var(--main-transition);
     cursor: pointer;
     position: relative;
+    width: 100%;
 }
 .services .srv::before{
     content: "";
