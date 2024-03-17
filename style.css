@@ -1247,6 +1247,8 @@ Articles
     cursor: pointer;
     position: relative;
     border-radius: 16px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .pricing .container .box::before,
@@ -1379,9 +1381,10 @@ Articles
 
 .stats .container{
     padding: 10px 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    grid-items:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
     
 }
@@ -1392,6 +1395,8 @@ Articles
     padding: 20px;
     cursor: pointer;
     position: relative;
+    width: 400px;
+    
 }
 
 .stats .box::before,
@@ -1434,7 +1439,7 @@ Articles
 
 @media (max-width: 768px) {
     .stats .container{
-        padding: 0px;
+        padding: 0px 10px;
     }
     
 }
